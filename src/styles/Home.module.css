@@ -1,0 +1,23 @@
+.count{
+    display: flexbox;
+    margin: 12px 0;
+    flex-direction: column;
+    text-align: center;
+    color: var(--text-color-secondary);
+}
+.count span{
+    font-weight: 700;
+}
+
+@media screen and (min-width: 720px){
+    .inputContainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .count{
+        flex: 1;
+    }
+    .input{
+        flex: 2;
+    }
+}
