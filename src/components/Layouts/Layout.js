@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Head from "next/head"
 import styles from './Layout.module.css'
-import Brightness4Icon from "@material-ui/icons/Brightness4"
+import FlashOnIcon from '@material-ui/icons/FlashOn';
 import { useEffect, useState } from "react"
 
 const Layout = ({children}) => {
@@ -35,11 +35,14 @@ const Layout = ({children}) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             
-            <header className={styles.header} onClick={switchTheme}>
+            <header className={styles.header}>
                 <Link href="/">
                 🗺️ Country Ranks
                 </Link>
-                
+                <div className={styles.switcher}>
+                <FlashOnIcon onClick={switchTheme}></FlashOnIcon>
+                </div>
+
             </header>
 
             <main className={styles.main}>
