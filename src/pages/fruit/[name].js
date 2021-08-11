@@ -17,7 +17,7 @@ export const getStaticPaths = async ()=>{
 const Dynamic = (props) => {
     const router = useRouter()
     if (router.isFallback){
-        return<h1>Loading</h1>
+        return<h1>Loading.</h1>
     }
     return (
         <div>

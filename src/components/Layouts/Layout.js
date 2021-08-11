@@ -1,7 +1,6 @@
 import Link from "next/link"
 import Head from "next/head"
 import styles from './Layout.module.css'
-import FlashOnIcon from '@material-ui/icons/FlashOn';
 import { useEffect, useState } from "react"
 
 const Layout = ({children}) => {
@@ -31,16 +30,17 @@ const Layout = ({children}) => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>🌍 Country Ranks</title>
+                <title>🌍 Country Ranks 🌍</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             
             <header className={styles.header}>
                 <Link href="/">
-                🗺️ Country Ranks
+                🗺️ Country Ranks 🗺️
                 </Link>
                 <div className={styles.switcher}>
-                <FlashOnIcon onClick={switchTheme}></FlashOnIcon>
+                <input onClick={switchTheme} type="checkbox" id="toggle"/>
+	            <label for="toggle"></label>
                 </div>
 
             </header>

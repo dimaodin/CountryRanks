@@ -33,7 +33,7 @@ export default function Home({countries}) {
           placeholder="Filter by name, region or sub-region 🌍" />
         </div>
         <div className={styles.count}>
-        Found <span>{countries.length}</span> Countries in total ✨
+        Found <span>{countries.length}</span> Countries in total 🥳
         </div>
       </div>
       
