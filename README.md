@@ -61,3 +61,4 @@ This project is under the [MIT license](https://github.com/dimaodin/CountryRanks
 <br>
 
 ##### Made with love by [Dima Odintsov](https://github.com/DimaOdin) 💜🚀
+
