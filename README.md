@@ -1,7 +1,7 @@
 # 🌎 Country Ranks 🌎
 
  ![badge3](https://img.shields.io/badge/nextjs-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white) ![badge1](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![badge2](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-> All the countries in world, developed in Next.js.
+> Worldwide minimalistic country ranks, developed with Next.js.
 
 > Powered by Restcountries.eu API.
 
