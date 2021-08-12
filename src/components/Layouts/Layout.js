@@ -35,9 +35,13 @@ const Layout = ({children}) => {
             </Head>
             
             <header className={styles.header}>
+                
+                <div className={styles.title}>
                 <Link href="/">
                 🗺️ Country Ranks 🗺️
                 </Link>
+                </div>
+
                 <div className={styles.switcher}>
                 <input onClick={switchTheme} type="checkbox" id="toggle"/>
 	            <label for="toggle"></label>
