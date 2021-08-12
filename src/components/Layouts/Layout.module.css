@@ -52,7 +52,7 @@
 
 .switcher input[type="checkbox"]:checked + label:before {
     transform: translateX(18px);
-    background-color: #FFF;
+    background-color: #775ada;
 }
 
 .switcher label {
