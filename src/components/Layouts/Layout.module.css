@@ -16,7 +16,7 @@
 }
 .title {
     background: rgba(255, 255, 255, 0.11);
-    box-shadow: 0 8px 12px 0 #775ada;
+    box-shadow: 0 3px 5px 0 #775ada;
     border-radius: 25px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 10px;

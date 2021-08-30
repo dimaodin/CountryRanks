@@ -22,6 +22,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  cursor: default;
   font-family: var(--font-family);
   background-color: var(--background-color);
   color: var(--text-color);
@@ -34,4 +35,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: .5rem;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-color-secondary);
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
 }
