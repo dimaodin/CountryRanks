@@ -1,13 +1,14 @@
 # 🌎 Country Scan 🌎
 
  ![badge3](https://img.shields.io/badge/nextjs-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white) ![badge1](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![badge2](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+ 
 > Worldwide minimalistic country rank scanner, developed with Next.js.
 
 > Powered by Restcountries.eu API.
 
 <br>
 
-### [:rocket: Live View :rocket:](https://en-dictionary.vercel.app/)
+### [:rocket: Live View :rocket:](https://country-scan.vercel.app/)
 
 <br>
 
