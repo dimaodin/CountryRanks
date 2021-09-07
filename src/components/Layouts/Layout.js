@@ -30,7 +30,7 @@ const Layout = ({children}) => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>🌍 Country Ranks 🌍</title>
+                <title>🌍 Country Scan 🌍</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             
@@ -38,7 +38,7 @@ const Layout = ({children}) => {
                 
                 <div className={styles.title}>
                 <Link href="/">
-                🗺️ Country Ranks 🗺️
+                🗺️ Country Scan 🗺️
                 </Link>
                 </div>
 
