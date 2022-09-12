@@ -42,5 +42,4 @@ $> npm run dev
 
 <br>
 
-##### Made with love by [Dima Odintsov](https://github.com/DimaOdin) 💜🚀
-
+##### Made with love by [Dima Odintsov](https://github.com/DimaOdin), make sure to check my [portfolio](https://dimaodin.com/) 💜🚀
